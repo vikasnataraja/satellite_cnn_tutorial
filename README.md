@@ -19,10 +19,10 @@ cd satellite_cnn_tutorial/
 
 ## Install the necessary packages
 
-It is recommended to create a new conda environment with Python 3.10 for this tutorial:
+It is recommended to create a new conda environment with Python 3.10 for this tutorial. Run the following command which will do all the tasks for you (from creating an environment to installing the packages):
 
 ```sh
-conda env create -f environment.yml
+./install_packages.sh
 ```
 
 or you can execute the following commands one by one in a terminal.
@@ -35,7 +35,6 @@ conda install -c anaconda pillow -y
 conda install -c conda-forge xarray dask netCDF4 bottleneck -y
 conda install tensorflow==2.12.0 -y
 conda install -c conda-forge keras==2.12.0 -y
-
 ```
 
 **Note**: Anaconda installation of tensorflow tends to be slow (30 - 60 minutes). Please feel free to run this in the background beforehand.
