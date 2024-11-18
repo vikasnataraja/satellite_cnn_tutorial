@@ -42,6 +42,8 @@ conda install -c anaconda pillow -y
 
 ## Using the repo
 
+You will need to download the data before you can run the notebook. Use [this link](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/viha4393_colorado_edu/Ei4dXjHk72VJn0f0LhhS2i8B2Tfnu72M8iu7t55WNRHROQ?e=Qfcbqv) to download the data and place it in a directory called `data/` inside the repo directory.
+
 The entire workflow is hosted on the Jupyter notebook `convolutional_neural_network.ipynb` so you should be able to run this notebook after following the previous installation steps!
 
 ## References
