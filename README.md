@@ -27,7 +27,7 @@ If you are running a Mac or Linux system, run the following command:
 ./install_packages.sh
 ```
 
-If you are running a Windows system, run the following command:
+If you are running a Windows system, run the following command in a UNIX shell (`bash`, `zsh`, etc.). It is recommended to use the Windows Subsystem for Linux (WSL) for this command:
 
 ```sh
 ./install_packages_windows.sh
