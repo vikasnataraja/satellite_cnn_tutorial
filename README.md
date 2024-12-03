@@ -21,11 +21,21 @@ cd satellite_cnn_tutorial/
 
 It is recommended to create a new conda environment with Python 3.10 for this tutorial. Run the following command which will do all the tasks for you (from creating an environment to installing the packages):
 
+If you are running a Mac or Linux system, run the following command:
+
 ```sh
 ./install_packages.sh
 ```
 
-or you can execute the following commands one by one in a terminal.
+If you are running a Windows system, run the following command:
+
+```sh
+./install_packages_windows.sh
+```
+
+Note that you may need to activate the conda environment AFTER running this command on Windows by running `conda activate cnn` since that can sometimes go unactivated.
+
+Alternatively, if none of those work, you can execute the following commands one by one in a `bash` or `zsh` (or any other similar ones) terminal.
 
 ```sh
 conda create -n cnn python=3.10 -y
